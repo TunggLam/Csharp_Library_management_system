@@ -73,55 +73,55 @@
             this.textBox_id = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label_ID = new System.Windows.Forms.Label();
-            this.panel_edit = new System.Windows.Forms.Panel();
-            this.button_searchByIsbn = new System.Windows.Forms.Button();
-            this.button_searchById = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.button_editBook = new System.Windows.Forms.Button();
-            this.label_AuthorId_Edit = new System.Windows.Forms.Label();
-            this.button_selectAuthor_Edit = new System.Windows.Forms.Button();
-            this.textBox_Author_Edit = new System.Windows.Forms.TextBox();
-            this.numericUpDown_Qty_Edit = new System.Windows.Forms.NumericUpDown();
-            this.comboBox_genres_Edit = new System.Windows.Forms.ComboBox();
-            this.button_selectCover_Edit = new System.Windows.Forms.Button();
-            this.label24 = new System.Windows.Forms.Label();
-            this.pictureBox_Cover_Edit = new System.Windows.Forms.PictureBox();
-            this.textBox_Publisher_Edit = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.dateTimePicker_Date_Edit = new System.Windows.Forms.DateTimePicker();
-            this.label26 = new System.Windows.Forms.Label();
-            this.textBox_Price_Edit = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.richTextBox_Description_Edit = new System.Windows.Forms.RichTextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.textBox_Title_Edit = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.textBox_Isbn_Edit = new System.Windows.Forms.TextBox();
-            this.textBox_ID_Edit = new System.Windows.Forms.TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
             this.panel_ShowBooks = new System.Windows.Forms.Panel();
             this.button_editBook_ = new System.Windows.Forms.Button();
             this.button_RemoveBook = new System.Windows.Forms.Button();
             this.dataGridView_Books = new System.Windows.Forms.DataGridView();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.textBox_ID_Edit = new System.Windows.Forms.TextBox();
+            this.textBox_Isbn_Edit = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.textBox_Title_Edit = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.richTextBox_Description_Edit = new System.Windows.Forms.RichTextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.textBox_Price_Edit = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.dateTimePicker_Date_Edit = new System.Windows.Forms.DateTimePicker();
+            this.label25 = new System.Windows.Forms.Label();
+            this.textBox_Publisher_Edit = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.button_selectCover_Edit = new System.Windows.Forms.Button();
+            this.comboBox_genres_Edit = new System.Windows.Forms.ComboBox();
+            this.numericUpDown_Qty_Edit = new System.Windows.Forms.NumericUpDown();
+            this.textBox_Author_Edit = new System.Windows.Forms.TextBox();
+            this.button_selectAuthor_Edit = new System.Windows.Forms.Button();
+            this.label_AuthorId_Edit = new System.Windows.Forms.Label();
+            this.button_editBook = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.button_searchById = new System.Windows.Forms.Button();
+            this.button_searchByIsbn = new System.Windows.Forms.Button();
+            this.panel_edit = new System.Windows.Forms.Panel();
+            this.pictureBox_Cover_Edit = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel_add.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_quantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_cover)).BeginInit();
-            this.panel_edit.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Qty_Edit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Cover_Edit)).BeginInit();
             this.panel_ShowBooks.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Books)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Qty_Edit)).BeginInit();
+            this.panel_edit.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Cover_Edit)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -134,7 +134,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1679, 92);
+            this.panel2.Size = new System.Drawing.Size(1674, 103);
             this.panel2.TabIndex = 7;
             // 
             // pictureBox1
@@ -155,7 +155,7 @@
             this.label_close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label_close.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_close.ForeColor = System.Drawing.Color.White;
-            this.label_close.Location = new System.Drawing.Point(1640, 2);
+            this.label_close.Location = new System.Drawing.Point(1512, 2);
             this.label_close.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_close.Name = "label_close";
             this.label_close.Size = new System.Drawing.Size(35, 28);
@@ -187,10 +187,10 @@
             this.panel3.Controls.Add(this.button_edit);
             this.panel3.Controls.Add(this.button_add);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 92);
+            this.panel3.Location = new System.Drawing.Point(0, 103);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(185, 564);
+            this.panel3.Size = new System.Drawing.Size(185, 553);
             this.panel3.TabIndex = 8;
             // 
             // button_exportBooks
@@ -329,7 +329,7 @@
             this.panel_add.Location = new System.Drawing.Point(192, 97);
             this.panel_add.Margin = new System.Windows.Forms.Padding(4);
             this.panel_add.Name = "panel_add";
-            this.panel_add.Size = new System.Drawing.Size(1480, 551);
+            this.panel_add.Size = new System.Drawing.Size(1482, 551);
             this.panel_add.TabIndex = 9;
             // 
             // label16
@@ -419,7 +419,7 @@
             this.button_ClearFields.Location = new System.Drawing.Point(768, 475);
             this.button_ClearFields.Margin = new System.Windows.Forms.Padding(4);
             this.button_ClearFields.Name = "button_ClearFields";
-            this.button_ClearFields.Size = new System.Drawing.Size(612, 54);
+            this.button_ClearFields.Size = new System.Drawing.Size(592, 54);
             this.button_ClearFields.TabIndex = 46;
             this.button_ClearFields.Text = "Hủy thông tin đã nhập";
             this.button_ClearFields.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -437,7 +437,7 @@
             this.button_AddBook.Location = new System.Drawing.Point(112, 475);
             this.button_AddBook.Margin = new System.Windows.Forms.Padding(4);
             this.button_AddBook.Name = "button_AddBook";
-            this.button_AddBook.Size = new System.Drawing.Size(612, 54);
+            this.button_AddBook.Size = new System.Drawing.Size(600, 54);
             this.button_AddBook.TabIndex = 45;
             this.button_AddBook.Text = "Thêm sách";
             this.button_AddBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -511,10 +511,10 @@
             this.button_selectCover.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button_selectCover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_selectCover.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_selectCover.Location = new System.Drawing.Point(1117, 404);
+            this.button_selectCover.Location = new System.Drawing.Point(1072, 404);
             this.button_selectCover.Margin = new System.Windows.Forms.Padding(4);
             this.button_selectCover.Name = "button_selectCover";
-            this.button_selectCover.Size = new System.Drawing.Size(325, 44);
+            this.button_selectCover.Size = new System.Drawing.Size(288, 44);
             this.button_selectCover.TabIndex = 38;
             this.button_selectCover.Text = " Chọn ảnh bìa";
             this.button_selectCover.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -526,7 +526,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(1213, 37);
+            this.label10.Location = new System.Drawing.Point(1166, 37);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(105, 29);
@@ -537,10 +537,10 @@
             // 
             this.pictureBox_cover.BackColor = System.Drawing.Color.Gray;
             this.pictureBox_cover.ImageLocation = "../../IMAGES/paper.jpg";
-            this.pictureBox_cover.Location = new System.Drawing.Point(1117, 75);
+            this.pictureBox_cover.Location = new System.Drawing.Point(1072, 75);
             this.pictureBox_cover.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox_cover.Name = "pictureBox_cover";
-            this.pictureBox_cover.Size = new System.Drawing.Size(325, 320);
+            this.pictureBox_cover.Size = new System.Drawing.Size(288, 320);
             this.pictureBox_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_cover.TabIndex = 36;
             this.pictureBox_cover.TabStop = false;
@@ -721,6 +721,451 @@
             this.label_ID.TabIndex = 16;
             this.label_ID.Text = "ID:";
             // 
+            // panel_ShowBooks
+            // 
+            this.panel_ShowBooks.BackColor = System.Drawing.Color.Tan;
+            this.panel_ShowBooks.Controls.Add(this.button_editBook_);
+            this.panel_ShowBooks.Controls.Add(this.button_RemoveBook);
+            this.panel_ShowBooks.Controls.Add(this.dataGridView_Books);
+            this.panel_ShowBooks.Location = new System.Drawing.Point(192, 97);
+            this.panel_ShowBooks.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_ShowBooks.Name = "panel_ShowBooks";
+            this.panel_ShowBooks.Size = new System.Drawing.Size(1502, 551);
+            this.panel_ShowBooks.TabIndex = 54;
+            // 
+            // button_editBook_
+            // 
+            this.button_editBook_.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button_editBook_.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_editBook_.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_editBook_.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_editBook_.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_editBook_.ForeColor = System.Drawing.Color.White;
+            this.button_editBook_.Location = new System.Drawing.Point(11, 476);
+            this.button_editBook_.Margin = new System.Windows.Forms.Padding(4);
+            this.button_editBook_.Name = "button_editBook_";
+            this.button_editBook_.Size = new System.Drawing.Size(701, 52);
+            this.button_editBook_.TabIndex = 57;
+            this.button_editBook_.Text = "Sửa sách";
+            this.button_editBook_.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button_editBook_.UseVisualStyleBackColor = false;
+            this.button_editBook_.Click += new System.EventHandler(this.button_editBook__Click);
+            // 
+            // button_RemoveBook
+            // 
+            this.button_RemoveBook.BackColor = System.Drawing.Color.Red;
+            this.button_RemoveBook.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_RemoveBook.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button_RemoveBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_RemoveBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_RemoveBook.ForeColor = System.Drawing.Color.White;
+            this.button_RemoveBook.Location = new System.Drawing.Point(768, 475);
+            this.button_RemoveBook.Margin = new System.Windows.Forms.Padding(4);
+            this.button_RemoveBook.Name = "button_RemoveBook";
+            this.button_RemoveBook.Size = new System.Drawing.Size(592, 52);
+            this.button_RemoveBook.TabIndex = 56;
+            this.button_RemoveBook.Text = "Xóa sách";
+            this.button_RemoveBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button_RemoveBook.UseVisualStyleBackColor = false;
+            this.button_RemoveBook.Click += new System.EventHandler(this.button_RemoveBook_Click);
+            // 
+            // dataGridView_Books
+            // 
+            this.dataGridView_Books.AllowUserToAddRows = false;
+            this.dataGridView_Books.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_Books.BackgroundColor = System.Drawing.Color.Wheat;
+            this.dataGridView_Books.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Books.GridColor = System.Drawing.Color.DarkRed;
+            this.dataGridView_Books.Location = new System.Drawing.Point(9, 14);
+            this.dataGridView_Books.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView_Books.Name = "dataGridView_Books";
+            this.dataGridView_Books.RowHeadersWidth = 51;
+            this.dataGridView_Books.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Brown;
+            this.dataGridView_Books.Size = new System.Drawing.Size(1346, 432);
+            this.dataGridView_Books.TabIndex = 0;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(73, 50);
+            this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(42, 29);
+            this.label34.TabIndex = 16;
+            this.label34.Text = "ID:";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(40, 116);
+            this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(75, 29);
+            this.label33.TabIndex = 17;
+            this.label33.Text = "ISBN:";
+            // 
+            // textBox_ID_Edit
+            // 
+            this.textBox_ID_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_ID_Edit.Location = new System.Drawing.Point(124, 44);
+            this.textBox_ID_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox_ID_Edit.Name = "textBox_ID_Edit";
+            this.textBox_ID_Edit.Size = new System.Drawing.Size(161, 34);
+            this.textBox_ID_Edit.TabIndex = 18;
+            // 
+            // textBox_Isbn_Edit
+            // 
+            this.textBox_Isbn_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Isbn_Edit.Location = new System.Drawing.Point(124, 107);
+            this.textBox_Isbn_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox_Isbn_Edit.Name = "textBox_Isbn_Edit";
+            this.textBox_Isbn_Edit.Size = new System.Drawing.Size(161, 34);
+            this.textBox_Isbn_Edit.TabIndex = 19;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(13, 175);
+            this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(102, 29);
+            this.label32.TabIndex = 20;
+            this.label32.Text = "Tiêu đề:";
+            // 
+            // textBox_Title_Edit
+            // 
+            this.textBox_Title_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Title_Edit.Location = new System.Drawing.Point(124, 170);
+            this.textBox_Title_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox_Title_Edit.Name = "textBox_Title_Edit";
+            this.textBox_Title_Edit.Size = new System.Drawing.Size(369, 34);
+            this.textBox_Title_Edit.TabIndex = 21;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(21, 235);
+            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(99, 29);
+            this.label31.TabIndex = 22;
+            this.label31.Text = "Tác giả:";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(604, 175);
+            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(78, 29);
+            this.label30.TabIndex = 24;
+            this.label30.Text = "Mô tả:";
+            // 
+            // richTextBox_Description_Edit
+            // 
+            this.richTextBox_Description_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox_Description_Edit.Location = new System.Drawing.Point(699, 171);
+            this.richTextBox_Description_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.richTextBox_Description_Edit.Name = "richTextBox_Description_Edit";
+            this.richTextBox_Description_Edit.Size = new System.Drawing.Size(337, 276);
+            this.richTextBox_Description_Edit.TabIndex = 25;
+            this.richTextBox_Description_Edit.Text = "";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(12, 293);
+            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(107, 29);
+            this.label29.TabIndex = 26;
+            this.label29.Text = "Thể loại:";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(5, 354);
+            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(115, 29);
+            this.label28.TabIndex = 28;
+            this.label28.Text = "Số lượng:";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(39, 418);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(56, 29);
+            this.label27.TabIndex = 30;
+            this.label27.Text = "Giá:";
+            // 
+            // textBox_Price_Edit
+            // 
+            this.textBox_Price_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Price_Edit.Location = new System.Drawing.Point(124, 412);
+            this.textBox_Price_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox_Price_Edit.Name = "textBox_Price_Edit";
+            this.textBox_Price_Edit.Size = new System.Drawing.Size(369, 34);
+            this.textBox_Price_Edit.TabIndex = 31;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(551, 116);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(134, 29);
+            this.label26.TabIndex = 32;
+            this.label26.Text = "Ngày nhập:";
+            // 
+            // dateTimePicker_Date_Edit
+            // 
+            this.dateTimePicker_Date_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker_Date_Edit.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker_Date_Edit.Location = new System.Drawing.Point(700, 107);
+            this.dateTimePicker_Date_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker_Date_Edit.Name = "dateTimePicker_Date_Edit";
+            this.dateTimePicker_Date_Edit.Size = new System.Drawing.Size(335, 34);
+            this.dateTimePicker_Date_Edit.TabIndex = 33;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(534, 42);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(158, 29);
+            this.label25.TabIndex = 34;
+            this.label25.Text = "Nhà xuất bản:";
+            // 
+            // textBox_Publisher_Edit
+            // 
+            this.textBox_Publisher_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Publisher_Edit.Location = new System.Drawing.Point(700, 37);
+            this.textBox_Publisher_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox_Publisher_Edit.Name = "textBox_Publisher_Edit";
+            this.textBox_Publisher_Edit.Size = new System.Drawing.Size(335, 34);
+            this.textBox_Publisher_Edit.TabIndex = 35;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(1166, 40);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(110, 29);
+            this.label24.TabIndex = 37;
+            this.label24.Text = "Bìa sách:";
+            // 
+            // button_selectCover_Edit
+            // 
+            this.button_selectCover_Edit.BackColor = System.Drawing.Color.White;
+            this.button_selectCover_Edit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_selectCover_Edit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button_selectCover_Edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_selectCover_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_selectCover_Edit.Location = new System.Drawing.Point(1087, 404);
+            this.button_selectCover_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.button_selectCover_Edit.Name = "button_selectCover_Edit";
+            this.button_selectCover_Edit.Size = new System.Drawing.Size(273, 44);
+            this.button_selectCover_Edit.TabIndex = 38;
+            this.button_selectCover_Edit.Text = " Chọn bìa sách";
+            this.button_selectCover_Edit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button_selectCover_Edit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button_selectCover_Edit.UseVisualStyleBackColor = false;
+            this.button_selectCover_Edit.Click += new System.EventHandler(this.button_selectCover_Edit_Click);
+            // 
+            // comboBox_genres_Edit
+            // 
+            this.comboBox_genres_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox_genres_Edit.FormattingEnabled = true;
+            this.comboBox_genres_Edit.Location = new System.Drawing.Point(124, 293);
+            this.comboBox_genres_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox_genres_Edit.Name = "comboBox_genres_Edit";
+            this.comboBox_genres_Edit.Size = new System.Drawing.Size(369, 37);
+            this.comboBox_genres_Edit.TabIndex = 40;
+            // 
+            // numericUpDown_Qty_Edit
+            // 
+            this.numericUpDown_Qty_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown_Qty_Edit.Location = new System.Drawing.Point(124, 353);
+            this.numericUpDown_Qty_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown_Qty_Edit.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numericUpDown_Qty_Edit.Name = "numericUpDown_Qty_Edit";
+            this.numericUpDown_Qty_Edit.Size = new System.Drawing.Size(127, 34);
+            this.numericUpDown_Qty_Edit.TabIndex = 41;
+            // 
+            // textBox_Author_Edit
+            // 
+            this.textBox_Author_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Author_Edit.Location = new System.Drawing.Point(124, 235);
+            this.textBox_Author_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox_Author_Edit.Name = "textBox_Author_Edit";
+            this.textBox_Author_Edit.Size = new System.Drawing.Size(185, 34);
+            this.textBox_Author_Edit.TabIndex = 42;
+            // 
+            // button_selectAuthor_Edit
+            // 
+            this.button_selectAuthor_Edit.BackColor = System.Drawing.Color.White;
+            this.button_selectAuthor_Edit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_selectAuthor_Edit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button_selectAuthor_Edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_selectAuthor_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_selectAuthor_Edit.Location = new System.Drawing.Point(364, 235);
+            this.button_selectAuthor_Edit.Margin = new System.Windows.Forms.Padding(4);
+            this.button_selectAuthor_Edit.Name = "button_selectAuthor_Edit";
+            this.button_selectAuthor_Edit.Size = new System.Drawing.Size(131, 36);
+            this.button_selectAuthor_Edit.TabIndex = 43;
+            this.button_selectAuthor_Edit.Text = "Select Author";
+            this.button_selectAuthor_Edit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button_selectAuthor_Edit.UseVisualStyleBackColor = false;
+            this.button_selectAuthor_Edit.Click += new System.EventHandler(this.button_selectAuthor_Edit_Click);
+            // 
+            // label_AuthorId_Edit
+            // 
+            this.label_AuthorId_Edit.AutoSize = true;
+            this.label_AuthorId_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_AuthorId_Edit.Location = new System.Drawing.Point(316, 239);
+            this.label_AuthorId_Edit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label_AuthorId_Edit.Name = "label_AuthorId_Edit";
+            this.label_AuthorId_Edit.Size = new System.Drawing.Size(42, 29);
+            this.label_AuthorId_Edit.TabIndex = 44;
+            this.label_AuthorId_Edit.Text = "ID:";
+            // 
+            // button_editBook
+            // 
+            this.button_editBook.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(167)))), ((int)(((byte)(240)))));
+            this.button_editBook.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_editBook.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button_editBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_editBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_editBook.ForeColor = System.Drawing.Color.White;
+            this.button_editBook.Location = new System.Drawing.Point(129, 475);
+            this.button_editBook.Margin = new System.Windows.Forms.Padding(4);
+            this.button_editBook.Name = "button_editBook";
+            this.button_editBook.Size = new System.Drawing.Size(1195, 54);
+            this.button_editBook.TabIndex = 45;
+            this.button_editBook.Text = "Sửa sách";
+            this.button_editBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button_editBook.UseVisualStyleBackColor = false;
+            this.button_editBook.Click += new System.EventHandler(this.button_editBook_Click);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.White;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.Red;
+            this.label22.Location = new System.Drawing.Point(260, 47);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(23, 29);
+            this.label22.TabIndex = 47;
+            this.label22.Text = "*";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.White;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.Red;
+            this.label21.Location = new System.Drawing.Point(263, 110);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(23, 29);
+            this.label21.TabIndex = 48;
+            this.label21.Text = "*";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.White;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.Red;
+            this.label20.Location = new System.Drawing.Point(469, 172);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(23, 29);
+            this.label20.TabIndex = 49;
+            this.label20.Text = "*";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.White;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Red;
+            this.label19.Location = new System.Drawing.Point(288, 238);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(23, 29);
+            this.label19.TabIndex = 50;
+            this.label19.Text = "*";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.White;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Red;
+            this.label18.Location = new System.Drawing.Point(469, 416);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(23, 29);
+            this.label18.TabIndex = 51;
+            this.label18.Text = "*";
+            // 
+            // button_searchById
+            // 
+            this.button_searchById.BackColor = System.Drawing.Color.White;
+            this.button_searchById.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_searchById.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button_searchById.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_searchById.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_searchById.Location = new System.Drawing.Point(293, 44);
+            this.button_searchById.Margin = new System.Windows.Forms.Padding(4);
+            this.button_searchById.Name = "button_searchById";
+            this.button_searchById.Size = new System.Drawing.Size(199, 36);
+            this.button_searchById.TabIndex = 52;
+            this.button_searchById.Text = "Search Book By Id";
+            this.button_searchById.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button_searchById.UseVisualStyleBackColor = false;
+            this.button_searchById.Click += new System.EventHandler(this.button_searchById_Click);
+            // 
+            // button_searchByIsbn
+            // 
+            this.button_searchByIsbn.BackColor = System.Drawing.Color.White;
+            this.button_searchByIsbn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_searchByIsbn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button_searchByIsbn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_searchByIsbn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_searchByIsbn.Location = new System.Drawing.Point(293, 107);
+            this.button_searchByIsbn.Margin = new System.Windows.Forms.Padding(4);
+            this.button_searchByIsbn.Name = "button_searchByIsbn";
+            this.button_searchByIsbn.Size = new System.Drawing.Size(199, 36);
+            this.button_searchByIsbn.TabIndex = 53;
+            this.button_searchByIsbn.Text = "Search Book By ISBN";
+            this.button_searchByIsbn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button_searchByIsbn.UseVisualStyleBackColor = false;
+            this.button_searchByIsbn.Click += new System.EventHandler(this.button_searchByIsbn_Click);
+            // 
             // panel_edit
             // 
             this.panel_edit.BackColor = System.Drawing.Color.RosyBrown;
@@ -763,469 +1208,24 @@
             this.panel_edit.Size = new System.Drawing.Size(1480, 551);
             this.panel_edit.TabIndex = 53;
             // 
-            // button_searchByIsbn
-            // 
-            this.button_searchByIsbn.BackColor = System.Drawing.Color.White;
-            this.button_searchByIsbn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_searchByIsbn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button_searchByIsbn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_searchByIsbn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_searchByIsbn.Location = new System.Drawing.Point(293, 107);
-            this.button_searchByIsbn.Margin = new System.Windows.Forms.Padding(4);
-            this.button_searchByIsbn.Name = "button_searchByIsbn";
-            this.button_searchByIsbn.Size = new System.Drawing.Size(199, 36);
-            this.button_searchByIsbn.TabIndex = 53;
-            this.button_searchByIsbn.Text = "Search Book By ISBN";
-            this.button_searchByIsbn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button_searchByIsbn.UseVisualStyleBackColor = false;
-            this.button_searchByIsbn.Click += new System.EventHandler(this.button_searchByIsbn_Click);
-            // 
-            // button_searchById
-            // 
-            this.button_searchById.BackColor = System.Drawing.Color.White;
-            this.button_searchById.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_searchById.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button_searchById.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_searchById.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_searchById.Location = new System.Drawing.Point(293, 44);
-            this.button_searchById.Margin = new System.Windows.Forms.Padding(4);
-            this.button_searchById.Name = "button_searchById";
-            this.button_searchById.Size = new System.Drawing.Size(199, 36);
-            this.button_searchById.TabIndex = 52;
-            this.button_searchById.Text = "Search Book By Id";
-            this.button_searchById.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button_searchById.UseVisualStyleBackColor = false;
-            this.button_searchById.Click += new System.EventHandler(this.button_searchById_Click);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.White;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Red;
-            this.label18.Location = new System.Drawing.Point(469, 416);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(23, 29);
-            this.label18.TabIndex = 51;
-            this.label18.Text = "*";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.White;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Red;
-            this.label19.Location = new System.Drawing.Point(288, 238);
-            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(23, 29);
-            this.label19.TabIndex = 50;
-            this.label19.Text = "*";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.White;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.Red;
-            this.label20.Location = new System.Drawing.Point(469, 172);
-            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(23, 29);
-            this.label20.TabIndex = 49;
-            this.label20.Text = "*";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.White;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.Red;
-            this.label21.Location = new System.Drawing.Point(263, 110);
-            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(23, 29);
-            this.label21.TabIndex = 48;
-            this.label21.Text = "*";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.White;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.Red;
-            this.label22.Location = new System.Drawing.Point(260, 47);
-            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(23, 29);
-            this.label22.TabIndex = 47;
-            this.label22.Text = "*";
-            // 
-            // button_editBook
-            // 
-            this.button_editBook.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(167)))), ((int)(((byte)(240)))));
-            this.button_editBook.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_editBook.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button_editBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_editBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_editBook.ForeColor = System.Drawing.Color.White;
-            this.button_editBook.Location = new System.Drawing.Point(129, 475);
-            this.button_editBook.Margin = new System.Windows.Forms.Padding(4);
-            this.button_editBook.Name = "button_editBook";
-            this.button_editBook.Size = new System.Drawing.Size(1195, 54);
-            this.button_editBook.TabIndex = 45;
-            this.button_editBook.Text = "Edit Book";
-            this.button_editBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button_editBook.UseVisualStyleBackColor = false;
-            this.button_editBook.Click += new System.EventHandler(this.button_editBook_Click);
-            // 
-            // label_AuthorId_Edit
-            // 
-            this.label_AuthorId_Edit.AutoSize = true;
-            this.label_AuthorId_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_AuthorId_Edit.Location = new System.Drawing.Point(316, 239);
-            this.label_AuthorId_Edit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label_AuthorId_Edit.Name = "label_AuthorId_Edit";
-            this.label_AuthorId_Edit.Size = new System.Drawing.Size(42, 29);
-            this.label_AuthorId_Edit.TabIndex = 44;
-            this.label_AuthorId_Edit.Text = "ID:";
-            // 
-            // button_selectAuthor_Edit
-            // 
-            this.button_selectAuthor_Edit.BackColor = System.Drawing.Color.White;
-            this.button_selectAuthor_Edit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_selectAuthor_Edit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button_selectAuthor_Edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_selectAuthor_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_selectAuthor_Edit.Location = new System.Drawing.Point(364, 235);
-            this.button_selectAuthor_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.button_selectAuthor_Edit.Name = "button_selectAuthor_Edit";
-            this.button_selectAuthor_Edit.Size = new System.Drawing.Size(131, 36);
-            this.button_selectAuthor_Edit.TabIndex = 43;
-            this.button_selectAuthor_Edit.Text = "Select Author";
-            this.button_selectAuthor_Edit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button_selectAuthor_Edit.UseVisualStyleBackColor = false;
-            this.button_selectAuthor_Edit.Click += new System.EventHandler(this.button_selectAuthor_Edit_Click);
-            // 
-            // textBox_Author_Edit
-            // 
-            this.textBox_Author_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Author_Edit.Location = new System.Drawing.Point(124, 235);
-            this.textBox_Author_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox_Author_Edit.Name = "textBox_Author_Edit";
-            this.textBox_Author_Edit.Size = new System.Drawing.Size(185, 34);
-            this.textBox_Author_Edit.TabIndex = 42;
-            // 
-            // numericUpDown_Qty_Edit
-            // 
-            this.numericUpDown_Qty_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown_Qty_Edit.Location = new System.Drawing.Point(124, 353);
-            this.numericUpDown_Qty_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.numericUpDown_Qty_Edit.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown_Qty_Edit.Name = "numericUpDown_Qty_Edit";
-            this.numericUpDown_Qty_Edit.Size = new System.Drawing.Size(127, 34);
-            this.numericUpDown_Qty_Edit.TabIndex = 41;
-            // 
-            // comboBox_genres_Edit
-            // 
-            this.comboBox_genres_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox_genres_Edit.FormattingEnabled = true;
-            this.comboBox_genres_Edit.Location = new System.Drawing.Point(124, 293);
-            this.comboBox_genres_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox_genres_Edit.Name = "comboBox_genres_Edit";
-            this.comboBox_genres_Edit.Size = new System.Drawing.Size(369, 37);
-            this.comboBox_genres_Edit.TabIndex = 40;
-            // 
-            // button_selectCover_Edit
-            // 
-            this.button_selectCover_Edit.BackColor = System.Drawing.Color.White;
-            this.button_selectCover_Edit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_selectCover_Edit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button_selectCover_Edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_selectCover_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_selectCover_Edit.Location = new System.Drawing.Point(1117, 404);
-            this.button_selectCover_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.button_selectCover_Edit.Name = "button_selectCover_Edit";
-            this.button_selectCover_Edit.Size = new System.Drawing.Size(325, 44);
-            this.button_selectCover_Edit.TabIndex = 38;
-            this.button_selectCover_Edit.Text = " Select Cover";
-            this.button_selectCover_Edit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button_selectCover_Edit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button_selectCover_Edit.UseVisualStyleBackColor = false;
-            this.button_selectCover_Edit.Click += new System.EventHandler(this.button_selectCover_Edit_Click);
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(1213, 37);
-            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(89, 29);
-            this.label24.TabIndex = 37;
-            this.label24.Text = " Cover:";
-            // 
             // pictureBox_Cover_Edit
             // 
             this.pictureBox_Cover_Edit.BackColor = System.Drawing.Color.Gray;
             this.pictureBox_Cover_Edit.ImageLocation = "../../IMAGES/paper.jpg";
-            this.pictureBox_Cover_Edit.Location = new System.Drawing.Point(1117, 75);
+            this.pictureBox_Cover_Edit.Location = new System.Drawing.Point(1087, 75);
             this.pictureBox_Cover_Edit.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox_Cover_Edit.Name = "pictureBox_Cover_Edit";
-            this.pictureBox_Cover_Edit.Size = new System.Drawing.Size(325, 320);
+            this.pictureBox_Cover_Edit.Size = new System.Drawing.Size(273, 320);
             this.pictureBox_Cover_Edit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_Cover_Edit.TabIndex = 36;
             this.pictureBox_Cover_Edit.TabStop = false;
-            // 
-            // textBox_Publisher_Edit
-            // 
-            this.textBox_Publisher_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Publisher_Edit.Location = new System.Drawing.Point(700, 37);
-            this.textBox_Publisher_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox_Publisher_Edit.Name = "textBox_Publisher_Edit";
-            this.textBox_Publisher_Edit.Size = new System.Drawing.Size(335, 34);
-            this.textBox_Publisher_Edit.TabIndex = 35;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(551, 42);
-            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(121, 29);
-            this.label25.TabIndex = 34;
-            this.label25.Text = "Publisher:";
-            // 
-            // dateTimePicker_Date_Edit
-            // 
-            this.dateTimePicker_Date_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker_Date_Edit.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker_Date_Edit.Location = new System.Drawing.Point(700, 107);
-            this.dateTimePicker_Date_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.dateTimePicker_Date_Edit.Name = "dateTimePicker_Date_Edit";
-            this.dateTimePicker_Date_Edit.Size = new System.Drawing.Size(335, 34);
-            this.dateTimePicker_Date_Edit.TabIndex = 33;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(507, 113);
-            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(163, 29);
-            this.label26.TabIndex = 32;
-            this.label26.Text = "Date Recived:";
-            // 
-            // textBox_Price_Edit
-            // 
-            this.textBox_Price_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Price_Edit.Location = new System.Drawing.Point(124, 412);
-            this.textBox_Price_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox_Price_Edit.Name = "textBox_Price_Edit";
-            this.textBox_Price_Edit.Size = new System.Drawing.Size(369, 34);
-            this.textBox_Price_Edit.TabIndex = 31;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(39, 418);
-            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(75, 29);
-            this.label27.TabIndex = 30;
-            this.label27.Text = "Price:";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(5, 354);
-            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(106, 29);
-            this.label28.TabIndex = 28;
-            this.label28.Text = "Quantity:";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(25, 293);
-            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(86, 29);
-            this.label29.TabIndex = 26;
-            this.label29.Text = "Genre:";
-            // 
-            // richTextBox_Description_Edit
-            // 
-            this.richTextBox_Description_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox_Description_Edit.Location = new System.Drawing.Point(699, 171);
-            this.richTextBox_Description_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.richTextBox_Description_Edit.Name = "richTextBox_Description_Edit";
-            this.richTextBox_Description_Edit.Size = new System.Drawing.Size(337, 276);
-            this.richTextBox_Description_Edit.TabIndex = 25;
-            this.richTextBox_Description_Edit.Text = "";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(531, 170);
-            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(141, 29);
-            this.label30.TabIndex = 24;
-            this.label30.Text = "Description:";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(21, 235);
-            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(88, 29);
-            this.label31.TabIndex = 22;
-            this.label31.Text = "Author:";
-            // 
-            // textBox_Title_Edit
-            // 
-            this.textBox_Title_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Title_Edit.Location = new System.Drawing.Point(124, 170);
-            this.textBox_Title_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox_Title_Edit.Name = "textBox_Title_Edit";
-            this.textBox_Title_Edit.Size = new System.Drawing.Size(369, 34);
-            this.textBox_Title_Edit.TabIndex = 21;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(49, 178);
-            this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(67, 29);
-            this.label32.TabIndex = 20;
-            this.label32.Text = "Title:";
-            // 
-            // textBox_Isbn_Edit
-            // 
-            this.textBox_Isbn_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Isbn_Edit.Location = new System.Drawing.Point(124, 107);
-            this.textBox_Isbn_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox_Isbn_Edit.Name = "textBox_Isbn_Edit";
-            this.textBox_Isbn_Edit.Size = new System.Drawing.Size(161, 34);
-            this.textBox_Isbn_Edit.TabIndex = 19;
-            // 
-            // textBox_ID_Edit
-            // 
-            this.textBox_ID_Edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_ID_Edit.Location = new System.Drawing.Point(124, 44);
-            this.textBox_ID_Edit.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox_ID_Edit.Name = "textBox_ID_Edit";
-            this.textBox_ID_Edit.Size = new System.Drawing.Size(161, 34);
-            this.textBox_ID_Edit.TabIndex = 18;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(40, 116);
-            this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(75, 29);
-            this.label33.TabIndex = 17;
-            this.label33.Text = "ISBN:";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(73, 50);
-            this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(42, 29);
-            this.label34.TabIndex = 16;
-            this.label34.Text = "ID:";
-            // 
-            // panel_ShowBooks
-            // 
-            this.panel_ShowBooks.BackColor = System.Drawing.Color.Tan;
-            this.panel_ShowBooks.Controls.Add(this.button_editBook_);
-            this.panel_ShowBooks.Controls.Add(this.button_RemoveBook);
-            this.panel_ShowBooks.Controls.Add(this.dataGridView_Books);
-            this.panel_ShowBooks.Location = new System.Drawing.Point(192, 97);
-            this.panel_ShowBooks.Margin = new System.Windows.Forms.Padding(4);
-            this.panel_ShowBooks.Name = "panel_ShowBooks";
-            this.panel_ShowBooks.Size = new System.Drawing.Size(1480, 551);
-            this.panel_ShowBooks.TabIndex = 54;
-            // 
-            // button_editBook_
-            // 
-            this.button_editBook_.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button_editBook_.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_editBook_.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button_editBook_.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_editBook_.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_editBook_.ForeColor = System.Drawing.Color.White;
-            this.button_editBook_.Location = new System.Drawing.Point(11, 476);
-            this.button_editBook_.Margin = new System.Windows.Forms.Padding(4);
-            this.button_editBook_.Name = "button_editBook_";
-            this.button_editBook_.Size = new System.Drawing.Size(701, 52);
-            this.button_editBook_.TabIndex = 57;
-            this.button_editBook_.Text = "Edit This Book";
-            this.button_editBook_.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button_editBook_.UseVisualStyleBackColor = false;
-            this.button_editBook_.Click += new System.EventHandler(this.button_editBook__Click);
-            // 
-            // button_RemoveBook
-            // 
-            this.button_RemoveBook.BackColor = System.Drawing.Color.Red;
-            this.button_RemoveBook.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_RemoveBook.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button_RemoveBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_RemoveBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_RemoveBook.ForeColor = System.Drawing.Color.White;
-            this.button_RemoveBook.Location = new System.Drawing.Point(768, 475);
-            this.button_RemoveBook.Margin = new System.Windows.Forms.Padding(4);
-            this.button_RemoveBook.Name = "button_RemoveBook";
-            this.button_RemoveBook.Size = new System.Drawing.Size(701, 52);
-            this.button_RemoveBook.TabIndex = 56;
-            this.button_RemoveBook.Text = "Remove This Book";
-            this.button_RemoveBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button_RemoveBook.UseVisualStyleBackColor = false;
-            this.button_RemoveBook.Click += new System.EventHandler(this.button_RemoveBook_Click);
-            // 
-            // dataGridView_Books
-            // 
-            this.dataGridView_Books.AllowUserToAddRows = false;
-            this.dataGridView_Books.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView_Books.BackgroundColor = System.Drawing.Color.Wheat;
-            this.dataGridView_Books.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_Books.GridColor = System.Drawing.Color.DarkRed;
-            this.dataGridView_Books.Location = new System.Drawing.Point(9, 14);
-            this.dataGridView_Books.Margin = new System.Windows.Forms.Padding(4);
-            this.dataGridView_Books.Name = "dataGridView_Books";
-            this.dataGridView_Books.RowHeadersWidth = 51;
-            this.dataGridView_Books.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Brown;
-            this.dataGridView_Books.Size = new System.Drawing.Size(1460, 432);
-            this.dataGridView_Books.TabIndex = 0;
             // 
             // ManageBooksForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(50)))), ((int)(((byte)(67)))));
-            this.ClientSize = new System.Drawing.Size(1679, 656);
+            this.ClientSize = new System.Drawing.Size(1674, 656);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel_add);
@@ -1244,12 +1244,12 @@
             this.panel_add.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_quantity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_cover)).EndInit();
-            this.panel_edit.ResumeLayout(false);
-            this.panel_edit.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Qty_Edit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Cover_Edit)).EndInit();
             this.panel_ShowBooks.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Books)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Qty_Edit)).EndInit();
+            this.panel_edit.ResumeLayout(false);
+            this.panel_edit.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Cover_Edit)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1298,46 +1298,46 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label_booksCount;
-        private System.Windows.Forms.Panel panel_edit;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Button button_editBook;
-        public System.Windows.Forms.Label label_AuthorId_Edit;
-        private System.Windows.Forms.Button button_selectAuthor_Edit;
-        public System.Windows.Forms.TextBox textBox_Author_Edit;
-        private System.Windows.Forms.NumericUpDown numericUpDown_Qty_Edit;
-        private System.Windows.Forms.ComboBox comboBox_genres_Edit;
-        private System.Windows.Forms.Button button_selectCover_Edit;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.PictureBox pictureBox_Cover_Edit;
-        private System.Windows.Forms.TextBox textBox_Publisher_Edit;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.DateTimePicker dateTimePicker_Date_Edit;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox_Price_Edit;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.RichTextBox richTextBox_Description_Edit;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.TextBox textBox_Title_Edit;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox textBox_Isbn_Edit;
-        private System.Windows.Forms.TextBox textBox_ID_Edit;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button button_searchByIsbn;
-        private System.Windows.Forms.Button button_searchById;
         private System.Windows.Forms.Button button_ShowBooksList;
         private System.Windows.Forms.Panel panel_ShowBooks;
         private System.Windows.Forms.DataGridView dataGridView_Books;
         private System.Windows.Forms.Button button_editBook_;
         private System.Windows.Forms.Button button_RemoveBook;
         private System.Windows.Forms.Button button_exportBooks;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TextBox textBox_ID_Edit;
+        private System.Windows.Forms.TextBox textBox_Isbn_Edit;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.TextBox textBox_Title_Edit;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.RichTextBox richTextBox_Description_Edit;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.TextBox textBox_Price_Edit;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_Date_Edit;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.TextBox textBox_Publisher_Edit;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Button button_selectCover_Edit;
+        private System.Windows.Forms.ComboBox comboBox_genres_Edit;
+        private System.Windows.Forms.NumericUpDown numericUpDown_Qty_Edit;
+        public System.Windows.Forms.TextBox textBox_Author_Edit;
+        private System.Windows.Forms.Button button_selectAuthor_Edit;
+        public System.Windows.Forms.Label label_AuthorId_Edit;
+        private System.Windows.Forms.Button button_editBook;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button button_searchById;
+        private System.Windows.Forms.Button button_searchByIsbn;
+        private System.Windows.Forms.Panel panel_edit;
+        private System.Windows.Forms.PictureBox pictureBox_Cover_Edit;
     }
 }

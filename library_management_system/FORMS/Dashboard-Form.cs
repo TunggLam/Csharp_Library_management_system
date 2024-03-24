@@ -40,26 +40,26 @@ namespace library_management_system.FORMS
             //ảnh nút tài khoản ở màn hình
             button_users.Image = Image.FromFile("../../IMAGES/users.png");
 
-            /*DataTable bookData = book.BooksList();
+            DataTable bookData = book.BooksList();
 
-           
+
             byte[] img;
             MemoryStream ms;
-            int i = 0; 
+            int i = 0;
 
-            
+
             foreach (var panelControl in panel_displayBooks.Controls)
             {
                 if (panelControl.GetType() == typeof(Panel))
                 {
-                 
+
                     Panel panel = (Panel)panelControl;
                     img = (byte[])bookData.Rows[i][10];
                     ms = new MemoryStream(img);
                     panel.BackgroundImage = Image.FromStream(ms);
                     panel.BackgroundImageLayout = ImageLayout.Stretch;
 
-                    
+
                     foreach (var labelControl in panel.Controls)
                     {
                         if (labelControl.GetType() == typeof(Label))
@@ -71,7 +71,7 @@ namespace library_management_system.FORMS
 
                     i++;
                 }
-            }*/
+            }
 
 
         }

@@ -68,7 +68,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1489, 575);
             this.panel1.TabIndex = 0;
@@ -88,7 +88,7 @@
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.label_ID);
             this.panel4.Location = new System.Drawing.Point(191, 95);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1295, 476);
             this.panel4.TabIndex = 6;
@@ -97,7 +97,7 @@
             // 
             this.richTextBox_bio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox_bio.Location = new System.Drawing.Point(164, 290);
-            this.richTextBox_bio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox_bio.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox_bio.Name = "richTextBox_bio";
             this.richTextBox_bio.Size = new System.Drawing.Size(337, 157);
             this.richTextBox_bio.TabIndex = 15;
@@ -111,7 +111,7 @@
             this.dataGridView_authors.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_authors.GridColor = System.Drawing.Color.Black;
             this.dataGridView_authors.Location = new System.Drawing.Point(523, 50);
-            this.dataGridView_authors.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView_authors.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView_authors.Name = "dataGridView_authors";
             this.dataGridView_authors.RowHeadersWidth = 51;
             this.dataGridView_authors.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.YellowGreen;
@@ -134,7 +134,7 @@
             // 
             this.textBox_education.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_education.Location = new System.Drawing.Point(167, 229);
-            this.textBox_education.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_education.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_education.Name = "textBox_education";
             this.textBox_education.Size = new System.Drawing.Size(335, 34);
             this.textBox_education.TabIndex = 11;
@@ -154,7 +154,7 @@
             // 
             this.textBox_lname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_lname.Location = new System.Drawing.Point(167, 170);
-            this.textBox_lname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_lname.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_lname.Name = "textBox_lname";
             this.textBox_lname.Size = new System.Drawing.Size(335, 34);
             this.textBox_lname.TabIndex = 9;
@@ -174,7 +174,7 @@
             // 
             this.textBox_fname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_fname.Location = new System.Drawing.Point(167, 107);
-            this.textBox_fname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_fname.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_fname.Name = "textBox_fname";
             this.textBox_fname.Size = new System.Drawing.Size(335, 34);
             this.textBox_fname.TabIndex = 7;
@@ -183,7 +183,7 @@
             // 
             this.textBox_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_id.Location = new System.Drawing.Point(167, 47);
-            this.textBox_id.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_id.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_id.Name = "textBox_id";
             this.textBox_id.Size = new System.Drawing.Size(145, 34);
             this.textBox_id.TabIndex = 6;
@@ -221,7 +221,7 @@
             this.panel3.Controls.Add(this.button_add);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 92);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(185, 483);
             this.panel3.TabIndex = 5;
@@ -234,7 +234,7 @@
             this.button_exportAuthors.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_exportAuthors.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_exportAuthors.Location = new System.Drawing.Point(3, 326);
-            this.button_exportAuthors.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_exportAuthors.Margin = new System.Windows.Forms.Padding(4);
             this.button_exportAuthors.Name = "button_exportAuthors";
             this.button_exportAuthors.Size = new System.Drawing.Size(177, 96);
             this.button_exportAuthors.TabIndex = 54;
@@ -263,7 +263,7 @@
             this.button_Show_Author_Books.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Show_Author_Books.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Show_Author_Books.Location = new System.Drawing.Point(3, 226);
-            this.button_Show_Author_Books.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_Show_Author_Books.Margin = new System.Windows.Forms.Padding(4);
             this.button_Show_Author_Books.Name = "button_Show_Author_Books";
             this.button_Show_Author_Books.Size = new System.Drawing.Size(177, 92);
             this.button_Show_Author_Books.TabIndex = 9;
@@ -280,7 +280,7 @@
             this.button_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_delete.Location = new System.Drawing.Point(4, 165);
-            this.button_delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_delete.Margin = new System.Windows.Forms.Padding(4);
             this.button_delete.Name = "button_delete";
             this.button_delete.Size = new System.Drawing.Size(177, 54);
             this.button_delete.TabIndex = 8;
@@ -297,7 +297,7 @@
             this.button_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_edit.Location = new System.Drawing.Point(5, 103);
-            this.button_edit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_edit.Margin = new System.Windows.Forms.Padding(4);
             this.button_edit.Name = "button_edit";
             this.button_edit.Size = new System.Drawing.Size(177, 54);
             this.button_edit.TabIndex = 7;
@@ -314,7 +314,7 @@
             this.button_add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_add.Location = new System.Drawing.Point(4, 42);
-            this.button_add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_add.Margin = new System.Windows.Forms.Padding(4);
             this.button_add.Name = "button_add";
             this.button_add.Size = new System.Drawing.Size(177, 54);
             this.button_add.TabIndex = 6;
@@ -331,17 +331,18 @@
             this.panel2.Controls.Add(this.label_header);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1489, 92);
             this.panel2.TabIndex = 4;
+       
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(171)))), ((int)(((byte)(53)))));
             this.pictureBox1.ImageLocation = "../../IMAGES/typewriter.png";
             this.pictureBox1.Location = new System.Drawing.Point(3, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(93, 86);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -383,7 +384,7 @@
             this.ClientSize = new System.Drawing.Size(1489, 575);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ManageAuthorsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManageAutorsForm";

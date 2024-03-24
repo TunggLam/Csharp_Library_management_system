@@ -106,7 +106,7 @@ namespace library_management_system.FORMS
                     {
                         if (book.addBook(isbn, title, author_id, genre_id, quantity, price, publisher, dt_rcv, description, book_cover))
                         {
-                            MessageBox.Show("New Book Added Successfully", "New Book", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("Thêm sách mới thành công", "Sách mới", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                             // refresh the books counter
                             label_booksCount.Text = book.BooksList().Rows.Count.ToString() + " Books";
@@ -114,24 +114,24 @@ namespace library_management_system.FORMS
                         }
                         else
                         {
-                            MessageBox.Show("Book Not Added", "Add-Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            MessageBox.Show("Sách chưa được thêm", "Thêm thất bại", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                     }
                     else
                     {
-                        MessageBox.Show("This Book Title Already Exists, Enter a New One", "Duplicate Title", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        MessageBox.Show("Tiêu đề sách đã tồn tại, nhập tên mới", "Trùng tiêu đề", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                     }
                 }
                 else
                 {
-                    MessageBox.Show("This Book ISBN Already Exists, Enter a New One", "Duplicate ISBN", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    MessageBox.Show("ISBN đã tồn tại, thay đổi ISBN", "Trùng ISBN", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
 
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Data-Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Lỗi dữ liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -224,7 +224,7 @@ namespace library_management_system.FORMS
             }
             else
             {
-                MessageBox.Show("This Book ID Doesn't Exists, Select a Different ID", "ID Not Found", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("ID sách không tồn tại, chọn ID ở bảng", "không tìm thấy ID", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
         }
 
@@ -239,7 +239,7 @@ namespace library_management_system.FORMS
             }
             else
             {
-                MessageBox.Show("This Book ISBN Doesn't Exists, Select a Different ISBN", "ISBN Not Found", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("ISBN của sách này không tồn tại, hãy chọn ISBN khác", "Không tìm thấy ISBN", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
         }
 
@@ -286,29 +286,29 @@ namespace library_management_system.FORMS
                     {
                         if (book.editBook(id, isbn, title, author_id, genre_id, quantity, price, publisher, dt_rcv, description, book_cover))
                         {
-                            MessageBox.Show("Book Data Edited Successfully", "Edit Book", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("Dữ liệu sách đã được chỉnh sửa thành công", "Sửa sách", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         }
                         else
                         {
-                            MessageBox.Show("Book Data Not Edited", "Edit-Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            MessageBox.Show("Book Data Not Edited", "Sửa thất bại", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                     }
                     else
                     {
-                        MessageBox.Show("This Book Title Already Exists, Enter a New One", "Duplicate Title", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        MessageBox.Show("Tên sách này đã tồn tại, hãy nhập tên mới", "Trùng tiêu đề", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                     }
                 }
                 else
                 {
-                    MessageBox.Show("This Book ISBN Already Exists, Enter a New One", "Duplicate ISBN", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    MessageBox.Show("Sách này ISBN đã tồn tại, hãy nhập một mã mới", "Trùng ISBN", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
 
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Data-Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Dữ liệu lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -394,7 +394,7 @@ namespace library_management_system.FORMS
             }
             else
             {
-                MessageBox.Show("This Book ID Doesn't Exists, Select a Different ID", "ID Not Found", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("ID sách này không tồn tại, hãy chọn một ID khác", "Không tìm thấy ID", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
 
@@ -460,26 +460,26 @@ namespace library_management_system.FORMS
                 int bookId = Convert.ToInt32(dataGridView_Books.CurrentRow.Cells[0].Value.ToString());
 
                 // show a confirmation message before deleting the book
-                if (MessageBox.Show("Do You Really Want To Delete This Book?", "Confirmation Box", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show("Bạn có thực sự muốn xóa cuốn sách này?", "Hộp xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     if (book.removeBook(bookId))
                     {
-                        MessageBox.Show("The Book Data Has Been Deleted Successfully", "Remove Book", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Dữ liệu sách đã được xóa thành công", "Xóa sách", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
-                        MessageBox.Show("The Book Has Not Been Deleted", "Remove Book", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Sách chưa bị xóa", "Xóa sách", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show("No Book Is Selected | " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Không có sách được chọn | " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
 
-        
+       
     }
 }

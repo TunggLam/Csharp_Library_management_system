@@ -62,14 +62,14 @@ namespace library_management_system.FORMS
             // check if the first/last name are empty
             if (first_name.Trim().Equals("") || last_name.Trim().Equals(""))
             {
-                MessageBox.Show("You Need To Enter The Author First & Last Name", "Empty Data", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Bạn cần nhập họ và tên tác giả", "Dữ liệu trống", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
                 if (author.addAuthor(first_name, last_name, education, bio))
                 {
 
-                    MessageBox.Show("New Author Added Successfully", "New Author", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Tác giả mới được thêm thành công", "Tác giả mới", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     // refresh datagridview
                     dataGridView_authors.DataSource = author.AuthorsList(false);
@@ -80,7 +80,7 @@ namespace library_management_system.FORMS
                 }
                 else
                 {
-                    MessageBox.Show("Author Not Added", "Add-Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Tác giả chưa được thêm", "Thêm lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
         }
@@ -99,14 +99,14 @@ namespace library_management_system.FORMS
                 // check if the first/last name are empty
                 if (first_name.Trim().Equals("") || last_name.Trim().Equals(""))
                 {
-                    MessageBox.Show("You Need To Enter The Author First & Last Name", "Empty Data", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Bạn cần nhập họ và tên tác giả", "Dữ liệu trống", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
                     if (author.editAuthor(id, first_name, last_name, education, bio))
                     {
 
-                        MessageBox.Show("The Author Data Has Been Updated Successfully", "Edit Author", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Dữ liệu tác giả đã được cập nhật thành công", "Chỉnh sửa tác giả", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         // refresh datagridview
                         dataGridView_authors.DataSource = author.AuthorsList(false);
@@ -114,13 +114,13 @@ namespace library_management_system.FORMS
                     }
                     else
                     {
-                        MessageBox.Show("Author Data Not Updated", "Edit-Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Dữ liệu tác giả chưa được cập nhật", "Lỗi chỉnh sửa", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Invalid Author ID", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(ex.Message, "ID tác giả không hợp lệ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -143,12 +143,12 @@ namespace library_management_system.FORMS
                 int id = Convert.ToInt32(textBox_id.Text);
 
                 // show a confirmation message before deleting the author
-                if (MessageBox.Show("Do You Really Want To Delete This Author?", "Confirmation Box", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show("Bạn có thực sự muốn xóa tác giả này không?", "Hộp xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
 
                     if (author.removeAuthor(id))
                     {
-                        MessageBox.Show("The Author Data Has Been Deleted Successfully", "Remove Author", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Dữ liệu tác giả đã được xóa thành công", "Xóa tác giả", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         // clear fileds
                         textBox_id.Text = "";
@@ -166,7 +166,7 @@ namespace library_management_system.FORMS
                     }
                     else
                     {
-                        MessageBox.Show("The Author Has Not Been Deleted", "Remove Author", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Tác giả chưa bị xóa", "Xóa tác giả", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
 
                 }
@@ -174,7 +174,7 @@ namespace library_management_system.FORMS
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Invalid Author ID", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(ex.Message, "ID tác giả không hợp lệ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
         }
@@ -237,10 +237,10 @@ namespace library_management_system.FORMS
                 writer.WriteLine("----------------------------");
             }
             writer.Close();
-            MessageBox.Show("Data Exported");
+            MessageBox.Show("Dữ liệu đã xuất");
 
         }
 
-
+       
     }
 }

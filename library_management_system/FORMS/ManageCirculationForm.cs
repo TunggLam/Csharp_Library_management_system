@@ -82,7 +82,7 @@ namespace library_management_system.FORMS
 
             if (row != null)
             {
-                label_MemberFullName.Text = row["first_name"] + " " + row["last_name"];
+                label_MemberFullName.Text = "name";
                 label_MemberFullName.ForeColor = Color.LimeGreen;
             }
             else
@@ -150,7 +150,7 @@ namespace library_management_system.FORMS
                 // check if a copy of this book is still issued to this member
                 if (issueBook.isBookStillIssuedByMember(memberId, bookId))
                 {
-                    MessageBox.Show("a copy of this book is still issued to this member", "Issued Book", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    MessageBox.Show("Một bản sao của cuốn sách này vẫn được cấp cho thành viên này", "Sách đã phát hành", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
                 else
                 {
@@ -160,23 +160,23 @@ namespace library_management_system.FORMS
                         {
                             if (issueBook.Issue(bookId, memberId, "issued", issueDate, returnDate, note))
                             {
-                                MessageBox.Show("Book Issued", "Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                MessageBox.Show("Sách đã phát hành", "Trạng thái", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                         }
                         else
                         {
-                            MessageBox.Show("the return date shouldn't be before the issue date");
+                            MessageBox.Show("ngày trả lại không được trước ngày phát hành");
                         }
                     }
                     else
                     {
-                        MessageBox.Show("This Book Is Not Available Right Now", "Not Available", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Cuốn sách này hiện không có sẵn", "Không có sẵn", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Make Sure To Enter a Valid Book and Member ID | " + ex.Message, "ID'S Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                MessageBox.Show("Đảm bảo nhập sách hợp lệ và ID thành viên | " + ex.Message, "ID'S lỗi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
         }
@@ -208,7 +208,7 @@ namespace library_management_system.FORMS
             int atId = Convert.ToInt32(numericUpDown_MemberId_2.Value);
             DataRow row = member.getMemberById(atId);
             // the member doesn't exists
-            label_MemberFullName_2.Text = row["first_name"] + " " + row["last_name"];
+            label_MemberFullName_2.Text = "name";
         }
 
 
@@ -232,12 +232,12 @@ namespace library_management_system.FORMS
             {
                 if (issueBook.returnBook(bookId, memberId, "returned", issueDate, returnDate, note))
                 {
-                    MessageBox.Show("Book Returned", "Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Sách được trả lại", "Trạng thái", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             else
             {
-                MessageBox.Show("the return date shouldn't be before the issue date");
+                MessageBox.Show("Ngày trả lại không được trước ngày phát hành");
             }
 
         }
@@ -254,19 +254,19 @@ namespace library_management_system.FORMS
 
             if (issueBook.returnBook(bookId, memberId, "losted", issueDate, issueDate, note))
             {
-                MessageBox.Show("Book Losted", "Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sách bị mất", "Trạng thái", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 // we need to edit the book quantity
                 // the book quantity - 1(lost copy)
                 if (book.bookQuantityMinusOne(bookId))
                 {
-                    MessageBox.Show("Book Qunatity Updated", "New Quantity Set", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Cập nhật số lượng sách", "Bộ số lượng mới", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
 
             }
             else
             {
-                MessageBox.Show("the return date shouldn't be before the issue date");
+                MessageBox.Show("Ngày trả lại không được trước ngày phát hành");
             }
 
 
@@ -281,11 +281,11 @@ namespace library_management_system.FORMS
 
             if (issueBook.removeData(bookId, memberId, issueDate))
             {
-                MessageBox.Show("Data Deleted", "Remove", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Dữ liệu đã bị xóa", "Xóa", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("Somehing Went Wrong And I Don't Know Why", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Đã xảy ra lỗi và tôi không biết tại sao", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
