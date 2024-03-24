@@ -1,0 +1,406 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\managebooksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\managebooksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|d:\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n c# v\u00E0 mysql\\library_management_system\\library_management_system\\forms\\managememberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\managememberform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|d:\\h\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n c# v\u00E0 mysql\\library_management_system\\library_management_system\\forms\\dashboard-form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\dashboard-form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\dashboard-form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\dashboard-form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\removebookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\removebookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\newform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\newform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\memberinfocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\memberinfocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\managecirculationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\managecirculationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\manageauthorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\manageauthorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\bookslistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\bookslistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\bookinfocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\bookinfocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\authorslistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\authorslistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\managebooksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\managebooksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\managecirculationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\managecirculationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\classes\\issue_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\classes\\issue_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\classes\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\classes\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\managecirculationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\managecirculationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\bookinfocard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\bookinfocard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\bookinfocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\bookinfocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\bookslistform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\bookslistform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\bookslistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\bookslistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\manageauthorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\manageauthorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\manageauthorsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\manageauthorsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\forms\\removebookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1B5EA0-527D-4173-B2EC-C41EA4CBB0C9}|library_management_system\\library_management_system.csproj|solutionrelative:library_management_system\\forms\\removebookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageMemberForm.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageMemberForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\ManageMemberForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageMemberForm.cs [Design]",
+              "RelativeToolTip": "library_management_system\\FORMS\\ManageMemberForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T11:37:04.98Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MemberInfoCard.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\MemberInfoCard.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\MemberInfoCard.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\MemberInfoCard.cs [Design]",
+              "RelativeToolTip": "library_management_system\\FORMS\\MemberInfoCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T11:16:01.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard-Form.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\Dashboard-Form.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\Dashboard-Form.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\Dashboard-Form.cs [Design]",
+              "RelativeToolTip": "library_management_system\\FORMS\\Dashboard-Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T07:30:00.538Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard-Form.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\Dashboard-Form.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\Dashboard-Form.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\Dashboard-Form.cs",
+              "RelativeToolTip": "library_management_system\\FORMS\\Dashboard-Form.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAHgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T07:30:04.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManageBooksForm.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageBooksForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\ManageBooksForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageBooksForm.cs [Design]",
+              "RelativeToolTip": "library_management_system\\FORMS\\ManageBooksForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T11:12:21.454Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewForm.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\NewForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\NewForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\NewForm.cs [Design]",
+              "RelativeToolTip": "library_management_system\\FORMS\\NewForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T11:16:31.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RemoveBookForm.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\RemoveBookForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\RemoveBookForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\RemoveBookForm.cs [Design]",
+              "RelativeToolTip": "library_management_system\\FORMS\\RemoveBookForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T11:16:34.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookInfoCard.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BookInfoCard.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\BookInfoCard.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BookInfoCard.cs [Design]",
+              "RelativeToolTip": "library_management_system\\FORMS\\BookInfoCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:49:59.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BooksListForm.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BooksListForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\BooksListForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BooksListForm.cs [Design]",
+              "RelativeToolTip": "library_management_system\\FORMS\\BooksListForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:41:31.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManageCirculationForm.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageCirculationForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\ManageCirculationForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageCirculationForm.cs [Design]",
+              "RelativeToolTip": "library_management_system\\FORMS\\ManageCirculationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:44:52.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthorsListForm.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\AuthorsListForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\AuthorsListForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\AuthorsListForm.cs [Design]",
+              "RelativeToolTip": "library_management_system\\FORMS\\AuthorsListForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T11:07:11.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ManageBooksForm.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageBooksForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\ManageBooksForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageBooksForm.cs",
+              "RelativeToolTip": "library_management_system\\FORMS\\ManageBooksForm.cs",
+              "ViewState": "AQIAAFEBAAAAAAAAAAAMwGMBAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:55:11.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManageAuthorsForm.cs [Design]",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageAuthorsForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\ManageAuthorsForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageAuthorsForm.cs [Design]",
+              "RelativeToolTip": "library_management_system\\FORMS\\ManageAuthorsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:38:58.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ManageCirculationForm.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageCirculationForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\ManageCirculationForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageCirculationForm.cs",
+              "RelativeToolTip": "library_management_system\\FORMS\\ManageCirculationForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8BAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:44:58.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageCirculationForm.Designer.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageCirculationForm.Designer.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\ManageCirculationForm.Designer.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageCirculationForm.Designer.cs",
+              "RelativeToolTip": "library_management_system\\FORMS\\ManageCirculationForm.Designer.cs",
+              "ViewState": "AQIAAAwDAAAAAAAAAAAkwDMDAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:45:30.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookInfoCard.Designer.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BookInfoCard.Designer.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\BookInfoCard.Designer.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BookInfoCard.Designer.cs",
+              "RelativeToolTip": "library_management_system\\FORMS\\BookInfoCard.Designer.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAowO4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:50:28.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ISSUE_BOOK.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\CLASSES\\ISSUE_BOOK.cs",
+              "RelativeDocumentMoniker": "library_management_system\\CLASSES\\ISSUE_BOOK.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\CLASSES\\ISSUE_BOOK.cs",
+              "RelativeToolTip": "library_management_system\\CLASSES\\ISSUE_BOOK.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:53:47.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MEMBER.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\CLASSES\\MEMBER.cs",
+              "RelativeDocumentMoniker": "library_management_system\\CLASSES\\MEMBER.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\CLASSES\\MEMBER.cs",
+              "RelativeToolTip": "library_management_system\\CLASSES\\MEMBER.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAkwIkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T07:50:18.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookInfoCard.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BookInfoCard.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\BookInfoCard.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BookInfoCard.cs",
+              "RelativeToolTip": "library_management_system\\FORMS\\BookInfoCard.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowEwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:50:01.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BooksListForm.Designer.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BooksListForm.Designer.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\BooksListForm.Designer.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BooksListForm.Designer.cs",
+              "RelativeToolTip": "library_management_system\\FORMS\\BooksListForm.Designer.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAowIsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:42:23.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BooksListForm.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BooksListForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\BooksListForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\BooksListForm.cs",
+              "RelativeToolTip": "library_management_system\\FORMS\\BooksListForm.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA7wEAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:41:44.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ManageAuthorsForm.Designer.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageAuthorsForm.Designer.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\ManageAuthorsForm.Designer.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageAuthorsForm.Designer.cs",
+              "RelativeToolTip": "library_management_system\\FORMS\\ManageAuthorsForm.Designer.cs",
+              "ViewState": "AQIAAIQBAAAAAAAAAAAkwKsBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:40:02.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ManageAuthorsForm.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageAuthorsForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\ManageAuthorsForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\ManageAuthorsForm.cs",
+              "RelativeToolTip": "library_management_system\\FORMS\\ManageAuthorsForm.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAAAPQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:39:00.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RemoveBookForm.cs",
+              "DocumentMoniker": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\RemoveBookForm.cs",
+              "RelativeDocumentMoniker": "library_management_system\\FORMS\\RemoveBookForm.cs",
+              "ToolTip": "D:\\H\u1EC7 th\u1ED1ng qu\u1EA3n l\u00FD th\u01B0 vi\u1EC7n C# v\u00E0 MySQL\\library_management_system\\library_management_system\\FORMS\\RemoveBookForm.cs",
+              "RelativeToolTip": "library_management_system\\FORMS\\RemoveBookForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:34:15.194Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
