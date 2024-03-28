@@ -33,8 +33,8 @@
             this.label_close = new System.Windows.Forms.Label();
             this.label_header = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button_return = new System.Windows.Forms.Button();
             this.button_issue = new System.Windows.Forms.Button();
+            this.button_return = new System.Windows.Forms.Button();
             this.panel_issue = new System.Windows.Forms.Panel();
             this.button_IssueBook = new System.Windows.Forms.Button();
             this.button_searchMember = new System.Windows.Forms.Button();
@@ -94,7 +94,7 @@
             this.panel2.Controls.Add(this.label_header);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1197, 92);
             this.panel2.TabIndex = 8;
@@ -104,7 +104,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(122)))), ((int)(((byte)(137)))));
             this.pictureBox1.ImageLocation = "../../IMAGES/circulation.png";
             this.pictureBox1.Location = new System.Drawing.Point(3, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(93, 86);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -142,31 +142,15 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(50)))), ((int)(((byte)(67)))));
-            this.panel3.Controls.Add(this.button_return);
             this.panel3.Controls.Add(this.button_issue);
+            this.panel3.Controls.Add(this.button_return);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 92);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(185, 621);
             this.panel3.TabIndex = 9;
-            // 
-            // button_return
-            // 
-            this.button_return.BackColor = System.Drawing.Color.White;
-            this.button_return.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_return.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button_return.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_return.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_return.Location = new System.Drawing.Point(5, 103);
-            this.button_return.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button_return.Name = "button_return";
-            this.button_return.Size = new System.Drawing.Size(177, 54);
-            this.button_return.TabIndex = 7;
-            this.button_return.Text = " Trả";
-            this.button_return.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button_return.UseVisualStyleBackColor = false;
-            this.button_return.Click += new System.EventHandler(this.button_return_Click);
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // button_issue
             // 
@@ -176,7 +160,7 @@
             this.button_issue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_issue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_issue.Location = new System.Drawing.Point(4, 42);
-            this.button_issue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_issue.Margin = new System.Windows.Forms.Padding(4);
             this.button_issue.Name = "button_issue";
             this.button_issue.Size = new System.Drawing.Size(177, 54);
             this.button_issue.TabIndex = 6;
@@ -184,6 +168,23 @@
             this.button_issue.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button_issue.UseVisualStyleBackColor = false;
             this.button_issue.Click += new System.EventHandler(this.button_issue_Click);
+            // 
+            // button_return
+            // 
+            this.button_return.BackColor = System.Drawing.Color.White;
+            this.button_return.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_return.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button_return.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_return.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_return.Location = new System.Drawing.Point(5, 103);
+            this.button_return.Margin = new System.Windows.Forms.Padding(4);
+            this.button_return.Name = "button_return";
+            this.button_return.Size = new System.Drawing.Size(177, 54);
+            this.button_return.TabIndex = 7;
+            this.button_return.Text = " Trả";
+            this.button_return.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button_return.UseVisualStyleBackColor = false;
+            this.button_return.Click += new System.EventHandler(this.button_return_Click);
             // 
             // panel_issue
             // 
@@ -206,7 +207,7 @@
             this.panel_issue.Controls.Add(this.numericUpDown_BookId);
             this.panel_issue.Controls.Add(this.label6);
             this.panel_issue.Location = new System.Drawing.Point(188, 96);
-            this.panel_issue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel_issue.Margin = new System.Windows.Forms.Padding(4);
             this.panel_issue.Name = "panel_issue";
             this.panel_issue.Size = new System.Drawing.Size(1005, 613);
             this.panel_issue.TabIndex = 10;
@@ -219,11 +220,11 @@
             this.button_IssueBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_IssueBook.ForeColor = System.Drawing.Color.White;
             this.button_IssueBook.Location = new System.Drawing.Point(35, 543);
-            this.button_IssueBook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_IssueBook.Margin = new System.Windows.Forms.Padding(4);
             this.button_IssueBook.Name = "button_IssueBook";
             this.button_IssueBook.Size = new System.Drawing.Size(933, 48);
             this.button_IssueBook.TabIndex = 58;
-            this.button_IssueBook.Text = "Issue Book";
+            this.button_IssueBook.Text = "Mượn sách";
             this.button_IssueBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button_IssueBook.UseVisualStyleBackColor = false;
             this.button_IssueBook.Click += new System.EventHandler(this.button_IssueBook_Click);
@@ -235,11 +236,11 @@
             this.button_searchMember.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_searchMember.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_searchMember.Location = new System.Drawing.Point(625, 106);
-            this.button_searchMember.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_searchMember.Margin = new System.Windows.Forms.Padding(4);
             this.button_searchMember.Name = "button_searchMember";
-            this.button_searchMember.Size = new System.Drawing.Size(163, 36);
+            this.button_searchMember.Size = new System.Drawing.Size(170, 36);
             this.button_searchMember.TabIndex = 57;
-            this.button_searchMember.Text = "Search Member";
+            this.button_searchMember.Text = "Tìm kiếm thành viên";
             this.button_searchMember.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button_searchMember.UseVisualStyleBackColor = false;
             this.button_searchMember.Click += new System.EventHandler(this.button_searchMember_Click);
@@ -251,11 +252,11 @@
             this.button_searchBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_searchBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_searchBook.Location = new System.Drawing.Point(625, 25);
-            this.button_searchBook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_searchBook.Margin = new System.Windows.Forms.Padding(4);
             this.button_searchBook.Name = "button_searchBook";
             this.button_searchBook.Size = new System.Drawing.Size(163, 36);
             this.button_searchBook.TabIndex = 56;
-            this.button_searchBook.Text = "Search Book";
+            this.button_searchBook.Text = "Tìm kiếm sách";
             this.button_searchBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button_searchBook.UseVisualStyleBackColor = false;
             this.button_searchBook.Click += new System.EventHandler(this.button_searchBook_Click);
@@ -264,7 +265,7 @@
             // 
             this.richTextBox_note.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox_note.Location = new System.Drawing.Point(271, 370);
-            this.richTextBox_note.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox_note.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox_note.Name = "richTextBox_note";
             this.richTextBox_note.Size = new System.Drawing.Size(395, 139);
             this.richTextBox_note.TabIndex = 55;
@@ -275,7 +276,7 @@
             this.dateTimePicker_return.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker_return.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker_return.Location = new System.Drawing.Point(456, 316);
-            this.dateTimePicker_return.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker_return.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker_return.Name = "dateTimePicker_return";
             this.dateTimePicker_return.Size = new System.Drawing.Size(167, 30);
             this.dateTimePicker_return.TabIndex = 54;
@@ -285,7 +286,7 @@
             this.dateTimePicker_Issue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker_Issue.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker_Issue.Location = new System.Drawing.Point(456, 257);
-            this.dateTimePicker_Issue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker_Issue.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker_Issue.Name = "dateTimePicker_Issue";
             this.dateTimePicker_Issue.Size = new System.Drawing.Size(167, 30);
             this.dateTimePicker_Issue.TabIndex = 53;
@@ -294,12 +295,12 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(189, 386);
+            this.label7.Location = new System.Drawing.Point(149, 386);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(71, 29);
+            this.label7.Size = new System.Drawing.Size(100, 29);
             this.label7.TabIndex = 52;
-            this.label7.Text = "Note:";
+            this.label7.Text = "Ghi chú:";
             // 
             // label5
             // 
@@ -308,20 +309,20 @@
             this.label5.Location = new System.Drawing.Point(296, 319);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(146, 29);
+            this.label5.Size = new System.Drawing.Size(108, 29);
             this.label5.TabIndex = 51;
-            this.label5.Text = "Return Date:";
+            this.label5.Text = "Ngày trả:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(312, 260);
+            this.label4.Location = new System.Drawing.Point(266, 259);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 29);
+            this.label4.Size = new System.Drawing.Size(141, 29);
             this.label4.TabIndex = 50;
-            this.label4.Text = "Issue Date:";
+            this.label4.Text = "Ngày mượn:";
             // 
             // label_availability
             // 
@@ -331,20 +332,20 @@
             this.label_availability.Location = new System.Drawing.Point(456, 201);
             this.label_availability.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_availability.Name = "label_availability";
-            this.label_availability.Size = new System.Drawing.Size(156, 31);
+            this.label_availability.Size = new System.Drawing.Size(209, 31);
             this.label_availability.TabIndex = 49;
-            this.label_availability.Text = "YES or NO";
+            this.label_availability.Text = "Có hoặc không";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(184, 202);
+            this.label2.Location = new System.Drawing.Point(224, 203);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(256, 29);
+            this.label2.Size = new System.Drawing.Size(183, 29);
             this.label2.TabIndex = 48;
-            this.label2.Text = "Is This Book Available:";
+            this.label2.Text = "Trạng thái sách:";
             // 
             // label_MemberFullName
             // 
@@ -355,9 +356,9 @@
             this.label_MemberFullName.Location = new System.Drawing.Point(459, 149);
             this.label_MemberFullName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_MemberFullName.Name = "label_MemberFullName";
-            this.label_MemberFullName.Size = new System.Drawing.Size(146, 20);
+            this.label_MemberFullName.Size = new System.Drawing.Size(150, 20);
             this.label_MemberFullName.TabIndex = 47;
-            this.label_MemberFullName.Text = "Member FullName";
+            this.label_MemberFullName.Text = "Tên của thành viên";
             this.label_MemberFullName.Click += new System.EventHandler(this.label_MemberFullName_Click);
             this.label_MemberFullName.MouseEnter += new System.EventHandler(this.label_MemberFullName_MouseEnter);
             this.label_MemberFullName.MouseLeave += new System.EventHandler(this.label_MemberFullName_MouseLeave);
@@ -371,9 +372,9 @@
             this.label_bookTitle.Location = new System.Drawing.Point(459, 64);
             this.label_bookTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_bookTitle.Name = "label_bookTitle";
-            this.label_bookTitle.Size = new System.Drawing.Size(84, 20);
+            this.label_bookTitle.Size = new System.Drawing.Size(105, 20);
             this.label_bookTitle.TabIndex = 46;
-            this.label_bookTitle.Text = "Book Title";
+            this.label_bookTitle.Text = "Tiêu đề sách";
             this.label_bookTitle.Click += new System.EventHandler(this.label_bookTitle_Click);
             this.label_bookTitle.MouseEnter += new System.EventHandler(this.label_bookTitle_MouseEnter);
             this.label_bookTitle.MouseLeave += new System.EventHandler(this.label_bookTitle_MouseLeave);
@@ -382,7 +383,7 @@
             // 
             this.numericUpDown_MemberId.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown_MemberId.Location = new System.Drawing.Point(463, 110);
-            this.numericUpDown_MemberId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown_MemberId.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown_MemberId.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -399,15 +400,15 @@
             this.label1.Location = new System.Drawing.Point(192, 112);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(250, 29);
+            this.label1.Size = new System.Drawing.Size(220, 29);
             this.label1.TabIndex = 44;
-            this.label1.Text = "Enter The Member ID:";
+            this.label1.Text = "Nhập ID thành viên:";
             // 
             // numericUpDown_BookId
             // 
             this.numericUpDown_BookId.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown_BookId.Location = new System.Drawing.Point(463, 25);
-            this.numericUpDown_BookId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown_BookId.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown_BookId.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -421,12 +422,12 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(229, 28);
+            this.label6.Location = new System.Drawing.Point(250, 27);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(216, 29);
+            this.label6.Size = new System.Drawing.Size(162, 29);
             this.label6.TabIndex = 42;
-            this.label6.Text = "Enter The Book ID:";
+            this.label6.Text = "Nhập ID sách:";
             // 
             // panel_return
             // 
@@ -452,7 +453,7 @@
             this.panel_return.Controls.Add(this.numericUpDown_BookId_2);
             this.panel_return.Controls.Add(this.label15);
             this.panel_return.Location = new System.Drawing.Point(188, 96);
-            this.panel_return.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel_return.Margin = new System.Windows.Forms.Padding(4);
             this.panel_return.Name = "panel_return";
             this.panel_return.Size = new System.Drawing.Size(1005, 613);
             this.panel_return.TabIndex = 59;
@@ -465,7 +466,7 @@
             this.button_displayAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_displayAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_displayAll.Location = new System.Drawing.Point(901, 14);
-            this.button_displayAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_displayAll.Margin = new System.Windows.Forms.Padding(4);
             this.button_displayAll.Name = "button_displayAll";
             this.button_displayAll.Size = new System.Drawing.Size(92, 36);
             this.button_displayAll.TabIndex = 65;
@@ -482,7 +483,7 @@
             this.button_losted.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_losted.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_losted.Location = new System.Drawing.Point(727, 14);
-            this.button_losted.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_losted.Margin = new System.Windows.Forms.Padding(4);
             this.button_losted.Name = "button_losted";
             this.button_losted.Size = new System.Drawing.Size(167, 36);
             this.button_losted.TabIndex = 64;
@@ -499,7 +500,7 @@
             this.button_returned.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_returned.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_returned.Location = new System.Drawing.Point(552, 14);
-            this.button_returned.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_returned.Margin = new System.Windows.Forms.Padding(4);
             this.button_returned.Name = "button_returned";
             this.button_returned.Size = new System.Drawing.Size(167, 36);
             this.button_returned.TabIndex = 63;
@@ -516,7 +517,7 @@
             this.button_issued.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_issued.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_issued.Location = new System.Drawing.Point(377, 14);
-            this.button_issued.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_issued.Margin = new System.Windows.Forms.Padding(4);
             this.button_issued.Name = "button_issued";
             this.button_issued.Size = new System.Drawing.Size(167, 36);
             this.button_issued.TabIndex = 62;
@@ -533,7 +534,7 @@
             this.dataGridView_issuedBooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_issuedBooks.GridColor = System.Drawing.Color.Black;
             this.dataGridView_issuedBooks.Location = new System.Drawing.Point(377, 53);
-            this.dataGridView_issuedBooks.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView_issuedBooks.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView_issuedBooks.Name = "dataGridView_issuedBooks";
             this.dataGridView_issuedBooks.RowHeadersWidth = 51;
             this.dataGridView_issuedBooks.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.LightSalmon;
@@ -550,7 +551,7 @@
             this.button_lostBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_lostBook.ForeColor = System.Drawing.Color.White;
             this.button_lostBook.Location = new System.Drawing.Point(508, 498);
-            this.button_lostBook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_lostBook.Margin = new System.Windows.Forms.Padding(4);
             this.button_lostBook.Name = "button_lostBook";
             this.button_lostBook.Size = new System.Drawing.Size(460, 48);
             this.button_lostBook.TabIndex = 60;
@@ -568,7 +569,7 @@
             this.button_returnBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_returnBook.ForeColor = System.Drawing.Color.White;
             this.button_returnBook.Location = new System.Drawing.Point(35, 498);
-            this.button_returnBook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_returnBook.Margin = new System.Windows.Forms.Padding(4);
             this.button_returnBook.Name = "button_returnBook";
             this.button_returnBook.Size = new System.Drawing.Size(460, 48);
             this.button_returnBook.TabIndex = 59;
@@ -586,7 +587,7 @@
             this.button_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_delete.ForeColor = System.Drawing.Color.White;
             this.button_delete.Location = new System.Drawing.Point(35, 554);
-            this.button_delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_delete.Margin = new System.Windows.Forms.Padding(4);
             this.button_delete.Name = "button_delete";
             this.button_delete.Size = new System.Drawing.Size(933, 48);
             this.button_delete.TabIndex = 58;
@@ -599,7 +600,7 @@
             // 
             this.richTextBox_Note_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox_Note_2.Location = new System.Drawing.Point(91, 297);
-            this.richTextBox_Note_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox_Note_2.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox_Note_2.Name = "richTextBox_Note_2";
             this.richTextBox_Note_2.Size = new System.Drawing.Size(261, 165);
             this.richTextBox_Note_2.TabIndex = 55;
@@ -610,7 +611,7 @@
             this.dateTimePicker_ReturnDate_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker_ReturnDate_2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker_ReturnDate_2.Location = new System.Drawing.Point(169, 245);
-            this.dateTimePicker_ReturnDate_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker_ReturnDate_2.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker_ReturnDate_2.Name = "dateTimePicker_ReturnDate_2";
             this.dateTimePicker_ReturnDate_2.Size = new System.Drawing.Size(167, 30);
             this.dateTimePicker_ReturnDate_2.TabIndex = 54;
@@ -621,7 +622,7 @@
             this.dateTimePicker_IssueDate_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker_IssueDate_2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker_IssueDate_2.Location = new System.Drawing.Point(169, 186);
-            this.dateTimePicker_IssueDate_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker_IssueDate_2.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker_IssueDate_2.Name = "dateTimePicker_IssueDate_2";
             this.dateTimePicker_IssueDate_2.Size = new System.Drawing.Size(167, 30);
             this.dateTimePicker_IssueDate_2.TabIndex = 53;
@@ -690,7 +691,7 @@
             this.numericUpDown_MemberId_2.Enabled = false;
             this.numericUpDown_MemberId_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown_MemberId_2.Location = new System.Drawing.Point(169, 98);
-            this.numericUpDown_MemberId_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown_MemberId_2.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown_MemberId_2.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -716,7 +717,7 @@
             this.numericUpDown_BookId_2.Enabled = false;
             this.numericUpDown_BookId_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown_BookId_2.Location = new System.Drawing.Point(169, 14);
-            this.numericUpDown_BookId_2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown_BookId_2.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown_BookId_2.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -745,10 +746,10 @@
             this.ClientSize = new System.Drawing.Size(1197, 713);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel_return);
             this.Controls.Add(this.panel_issue);
+            this.Controls.Add(this.panel_return);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ManageCirculationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManageCirculationForm";

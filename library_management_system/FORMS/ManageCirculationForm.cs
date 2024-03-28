@@ -57,18 +57,18 @@ namespace library_management_system.FORMS
                 if (issueBook.checkBookAvailability(id))
                 {
                     label_availability.ForeColor = Color.Green;
-                    label_availability.Text = "Yes";
+                    label_availability.Text = "Có";
                 }
                 else
                 {
                     label_availability.ForeColor = Color.Red;
-                    label_availability.Text = "No";
+                    label_availability.Text = "Không";
                 }
 
             }
             else
             {
-                label_bookTitle.Text = "this book doesn't exist";
+                label_bookTitle.Text = "Cuốn sách này không tồn tại";
                 label_bookTitle.ForeColor = Color.OrangeRed;
             }
 
@@ -82,12 +82,12 @@ namespace library_management_system.FORMS
 
             if (row != null)
             {
-                label_MemberFullName.Text = "name";
+                label_MemberFullName.Text = row["name"].ToString();
                 label_MemberFullName.ForeColor = Color.LimeGreen;
             }
             else
             {
-                label_MemberFullName.Text = "this member doesn't exist";
+                label_MemberFullName.Text = "Không có thành viên này";
                 label_MemberFullName.ForeColor = Color.OrangeRed;
             }
         }
@@ -208,7 +208,7 @@ namespace library_management_system.FORMS
             int atId = Convert.ToInt32(numericUpDown_MemberId_2.Value);
             DataRow row = member.getMemberById(atId);
             // the member doesn't exists
-            label_MemberFullName_2.Text = "name";
+            label_MemberFullName_2.Text = row["name"].ToString();
         }
 
 
@@ -320,7 +320,9 @@ namespace library_management_system.FORMS
             panel_issue.BringToFront();
         }
 
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
 
-
+        }
     }
 }

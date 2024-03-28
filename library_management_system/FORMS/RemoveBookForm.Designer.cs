@@ -57,7 +57,7 @@
             this.panel1.Controls.Add(this.button_RemoveBook);
             this.panel1.Controls.Add(this.label34);
             this.panel1.Location = new System.Drawing.Point(1, 70);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(592, 178);
             this.panel1.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             this.numericUpDown_BookId.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown_BookId.Location = new System.Drawing.Point(296, 26);
-            this.numericUpDown_BookId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown_BookId.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown_BookId.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -85,7 +85,7 @@
             this.button_RemoveBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_RemoveBook.ForeColor = System.Drawing.Color.White;
             this.button_RemoveBook.Location = new System.Drawing.Point(68, 103);
-            this.button_RemoveBook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_RemoveBook.Margin = new System.Windows.Forms.Padding(4);
             this.button_RemoveBook.Name = "button_RemoveBook";
             this.button_RemoveBook.Size = new System.Drawing.Size(453, 52);
             this.button_RemoveBook.TabIndex = 55;
@@ -102,9 +102,9 @@
             this.label34.Location = new System.Drawing.Point(63, 30);
             this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(216, 29);
+            this.label34.Size = new System.Drawing.Size(162, 29);
             this.label34.TabIndex = 53;
-            this.label34.Text = "Enter The Book ID:";
+            this.label34.Text = "Nhập ID sách:";
             // 
             // label_close
             // 
@@ -131,7 +131,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RemoveBookForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RemoveBookForm";

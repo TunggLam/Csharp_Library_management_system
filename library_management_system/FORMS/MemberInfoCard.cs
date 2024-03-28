@@ -29,7 +29,7 @@ namespace library_management_system.FORMS
                 DataRow data = member.getMemberById(memberId);
 
                 label_id.Text = data["id"].ToString();
-                label_fullName.Text = data["first_name"].ToString() + " " + data["last_name"].ToString();
+                label_fullName.Text = data["name"].ToString();
                 label_gender.Text = data["gender"].ToString();
                 label_phone.Text = data["phone"].ToString();
                 label_email.Text = data["email"].ToString();
@@ -49,5 +49,7 @@ namespace library_management_system.FORMS
         {
             this.Close();
         }
+
+      
     }
 }

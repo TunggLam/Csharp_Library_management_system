@@ -204,7 +204,7 @@ namespace library_management_system.FORMS
             if (!File.Exists(filePath))// check if this file exist
             {
                 File.Create(filePath).Close();// create the file
-                MessageBox.Show("file created");
+                MessageBox.Show("file đã được tạo");
             }
 
             // now we need to populate the text file with

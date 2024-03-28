@@ -118,12 +118,13 @@
             this.pictureBox_picture.BackColor = System.Drawing.Color.Gray;
             this.pictureBox_picture.ImageLocation = "";
             this.pictureBox_picture.Location = new System.Drawing.Point(16, 15);
-            this.pictureBox_picture.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox_picture.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox_picture.Name = "pictureBox_picture";
             this.pictureBox_picture.Size = new System.Drawing.Size(289, 255);
             this.pictureBox_picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_picture.TabIndex = 48;
             this.pictureBox_picture.TabStop = false;
+    
             // 
             // MemberInfoCard
             // 
@@ -139,7 +140,7 @@
             this.Controls.Add(this.label_gender);
             this.Controls.Add(this.pictureBox_picture);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MemberInfoCard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MemberInfoCard";

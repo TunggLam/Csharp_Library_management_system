@@ -48,12 +48,13 @@
             this.pictureBox_cover.BackColor = System.Drawing.Color.Gray;
             this.pictureBox_cover.ImageLocation = "";
             this.pictureBox_cover.Location = new System.Drawing.Point(16, 12);
-            this.pictureBox_cover.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox_cover.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox_cover.Name = "pictureBox_cover";
             this.pictureBox_cover.Size = new System.Drawing.Size(289, 320);
             this.pictureBox_cover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_cover.TabIndex = 37;
             this.pictureBox_cover.TabStop = false;
+     
             // 
             // label_title
             // 
@@ -156,7 +157,7 @@
             this.richTextBox_description.Enabled = false;
             this.richTextBox_description.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox_description.Location = new System.Drawing.Point(16, 340);
-            this.richTextBox_description.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox_description.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox_description.Name = "richTextBox_description";
             this.richTextBox_description.ReadOnly = true;
             this.richTextBox_description.Size = new System.Drawing.Size(288, 117);
@@ -211,7 +212,7 @@
             this.Controls.Add(this.pictureBox_cover);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BookInfoCard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BookInfoCard";

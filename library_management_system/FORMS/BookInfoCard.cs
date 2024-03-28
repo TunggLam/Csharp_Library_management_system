@@ -64,7 +64,7 @@ namespace library_management_system.FORMS
             }
             catch (Exception ex)
             {
-                MessageBox.Show("No Book To Show: " + ex.Message);
+                MessageBox.Show("Chưa có sách: " + ex.Message);
                 // hide the label quantity
                 label_qty.Visible = false;
             }
@@ -74,5 +74,7 @@ namespace library_management_system.FORMS
         {
             this.Close();
         }
+
+        
     }
 }

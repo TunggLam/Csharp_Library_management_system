@@ -417,7 +417,7 @@ namespace library_management_system.FORMS
             if (!File.Exists(filePath))// check if this file exist
             {
                 File.Create(filePath).Close();// create the file
-                MessageBox.Show("file created");
+                MessageBox.Show("file đã được tạo");
 
             }
 
@@ -445,7 +445,7 @@ namespace library_management_system.FORMS
                 writer.WriteLine("----------------------------");
             }
             writer.Close();
-            MessageBox.Show("Data Exported");
+            MessageBox.Show("Dữ liệu đã được xuất");
 
         }
 
